@@ -30,6 +30,7 @@ jobs:
         uses: izer-xyz/openwrt-imagebuilder-action@v4
         with:
           image: ${{ env.image }}
+          profile: ${{ env.profile }}
           openwrt-version: ${{ env.openwrt_version }}
           packages: ${{ env.packages }}
           debug: ${{ env.debug }}
