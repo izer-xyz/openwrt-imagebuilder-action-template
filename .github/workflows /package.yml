@@ -44,7 +44,8 @@ jobs:
             Custom OpenWrt build ...
             
             * OpenWrt version: ${{ env.openwrt_version }}
-            * Profile: ${{ env.image }}
+            * Image: ${{ env.image }}
+            * Profile: ${{ env.profile }}
             * Packages: ${{ env.packages }}
             
           files: |
